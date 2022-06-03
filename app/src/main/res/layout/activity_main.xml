@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/headerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:alpha="0.5"
+            android:fontFamily="sans-serif-black"
+            android:text="Поля в программе: показания прошлого месяца/ показания текущего месяца/ цена за единицу (руб.)" />
+
+        <TextView
+            android:id="@+id/hotWaterTextView"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Показания горячей воды " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/HotWaterPrevEditTextNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/HotWaterNowEditTextNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/HotWatePriceEditTextNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="211.67"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/coldWaterTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Показания холодной воды" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/coldWaterPrevEditTextNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/coldWaterNowEditTextNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/coldWaterPriceEditTextNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="43.57"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/elecricityTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Показания электрического счетчика" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/electricityPrevEditTextNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/electricityNowEditTextNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/electricityPriceEditTextNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="5.92"
+            android:inputType="number" />
+    </LinearLayout>
+
+</LinearLayout>
